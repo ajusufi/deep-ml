@@ -11,5 +11,5 @@ def transpose_matrix(a) -> torch.Tensor:
         A transposed torch.Tensor
     """
     a_t = torch.as_tensor(a)
-    # Your code here
-    pass
+    
+    return a_t.T
